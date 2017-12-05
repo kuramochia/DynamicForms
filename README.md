@@ -1,9 +1,11 @@
 # DynamicForms
-Makes Xamarin.Forms more dynamic, by allowing loading of XAML for views, and Json for bi-directionally bindable view models
+Forks from https://github.com/MobileEssentials/DynamicForms and Re-create .NET Standard 2.0 version.
 
 ## Install
+### Create .nupkg
+Please use MSBuild version 15.1+
 
-    PM> Install-Package Xamarin.Forms.Dynamic -Pre
+    > msbuild /t:pack /p:Configuration=Release Xamarin.Forms.Dynamic.csproj
 
+https://docs.microsoft.com/en-us/nuget/guides/create-net-standard-packages-vs2017#package-the-component
 
-> Note: Json view models aren't supported on Windows Phone yet. 
