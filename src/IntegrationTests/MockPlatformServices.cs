@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using Xamarin.Forms;
 using System.Security.Cryptography;
 using System.Text;
+using Xamarin.Forms.Internals;
 
 namespace UnitTests
 {
